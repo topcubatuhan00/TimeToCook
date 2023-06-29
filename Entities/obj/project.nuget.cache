@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "afr1VJljS32W79lyY+mr97d8+kmuDnGX59XfLzR5keB/w2E9BDHULOC2hcWRhfYe+8v/+JjK75R1hKnu2ZPRSA==",
+  "dgSpecHash": "CuBFLVyyLlzuNtVkCanWfn2ZYZPAGQBEakZpRlabQW7vlLyek6AlCQe0Q+D7V9BKVPxA4vgqdPb1haDr4NEehg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\topcu\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\topcu\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

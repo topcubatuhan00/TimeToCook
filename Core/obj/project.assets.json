@@ -3228,11 +3228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\External Projects\\TimeToCook\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj",
+      "projectPath": "D:\\External Projects\\TimeToCook\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\obj\\",
+      "outputPath": "D:\\External Projects\\TimeToCook\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3282,7 +3282,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

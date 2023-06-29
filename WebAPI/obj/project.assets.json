@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\External Projects\\TimeToCook\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\WebAPI\\WebAPI.csproj",
+      "projectPath": "D:\\External Projects\\TimeToCook\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\WebAPI\\obj\\",
+      "outputPath": "D:\\External Projects\\TimeToCook\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -286,7 +286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Business\\Business.csproj": {}
+    "D:\\External Projects\\TimeToCook\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Business\\Business.csproj": {
+    "D:\\External Projects\\TimeToCook\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\External Projects\\TimeToCook\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Business\\Business.csproj",
+        "projectPath": "D:\\External Projects\\TimeToCook\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Business\\obj\\",
+        "outputPath": "D:\\External Projects\\TimeToCook\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\DataAccess.csproj"
+              "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj"
+              "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj"
               }
             }
           }
@@ -62,18 +62,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj": {
+    "D:\\External Projects\\TimeToCook\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\External Projects\\TimeToCook\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj",
+        "projectPath": "D:\\External Projects\\TimeToCook\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\obj\\",
+        "outputPath": "D:\\External Projects\\TimeToCook\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,18 +123,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\DataAccess.csproj": {
+    "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\obj\\",
+        "outputPath": "D:\\External Projects\\TimeToCook\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,11 +151,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj"
+              "D:\\External Projects\\TimeToCook\\Core\\Core.csproj": {
+                "projectPath": "D:\\External Projects\\TimeToCook\\Core\\Core.csproj"
               },
-              "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj"
+              "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj"
               }
             }
           }
@@ -185,18 +185,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj": {
+    "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj",
+        "projectPath": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\obj\\",
+        "outputPath": "D:\\External Projects\\TimeToCook\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,8 +213,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj"
+              "D:\\External Projects\\TimeToCook\\Core\\Core.csproj": {
+                "projectPath": "D:\\External Projects\\TimeToCook\\Core\\Core.csproj"
               }
             }
           }
@@ -244,7 +244,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

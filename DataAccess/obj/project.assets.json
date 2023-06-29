@@ -3265,11 +3265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\DataAccess\\obj\\",
+      "outputPath": "D:\\External Projects\\TimeToCook\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3286,11 +3286,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Core\\Core.csproj"
+            "D:\\External Projects\\TimeToCook\\Core\\Core.csproj": {
+              "projectPath": "D:\\External Projects\\TimeToCook\\Core\\Core.csproj"
             },
-            "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\Entities\\Entities.csproj"
+            "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj"
             }
           }
         }
@@ -3320,7 +3320,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

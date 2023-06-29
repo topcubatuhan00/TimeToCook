@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WX1aukCuPJnpcCTVv/B65ZEA7Pv5bxyuSoBFCs7Ap1eMYitERbUOVDG+PVXMN2RGT6I7qfqZ+d6+8KZ2ecaPQw==",
+  "dgSpecHash": "dz7SptEEHRAgsRACbxLfRB064w+tPRyPx2fLEL5o429uqf4lXXPKRSnzNf6o0FMmDo7Ej0H/Pv8XJLiuLpNuaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\topcu\\source\\repos\\NorthwindKatmanli\\MvcWebUI\\MvcWebUI.csproj",
+  "projectFilePath": "D:\\External Projects\\TimeToCook\\MvcWebUI\\MvcWebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\topcu\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\topcu\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

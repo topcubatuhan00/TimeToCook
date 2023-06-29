@@ -10,3 +10,15 @@ C:\Users\topcu\source\repos\NorthwindKatmanli\Core\obj\Debug\net6.0\Core.dll
 C:\Users\topcu\source\repos\NorthwindKatmanli\Core\obj\Debug\net6.0\refint\Core.dll
 C:\Users\topcu\source\repos\NorthwindKatmanli\Core\obj\Debug\net6.0\Core.pdb
 C:\Users\topcu\source\repos\NorthwindKatmanli\Core\obj\Debug\net6.0\ref\Core.dll
+D:\External Projects\TimeToCook\Core\bin\Debug\net6.0\Core.deps.json
+D:\External Projects\TimeToCook\Core\bin\Debug\net6.0\Core.dll
+D:\External Projects\TimeToCook\Core\bin\Debug\net6.0\Core.pdb
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\Core.dll
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\refint\Core.dll
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\Core.pdb
+D:\External Projects\TimeToCook\Core\obj\Debug\net6.0\ref\Core.dll
