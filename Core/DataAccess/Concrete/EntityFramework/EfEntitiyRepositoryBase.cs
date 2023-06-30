@@ -1,11 +1,6 @@
 ﻿using Core.DataAccess.Abstract;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core.DataAccess.Concrete.EntityFramework
 {
@@ -18,7 +13,7 @@ namespace Core.DataAccess.Concrete.EntityFramework
             using (TContext context = new TContext())
             {
                 var addedEntity = context.Entry(entity);
-                addedEntity.State= EntityState.Added;
+                addedEntity.State = EntityState.Added;
                 context.SaveChanges();
             }
         }

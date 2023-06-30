@@ -9,7 +9,7 @@ namespace MvcWebUI.Helpers
 
         public CartSessionHelper(IHttpContextAccessor contextAccessor)
         {
-            _contextAccessor= contextAccessor;
+            _contextAccessor = contextAccessor;
         }
 
 
@@ -21,7 +21,7 @@ namespace MvcWebUI.Helpers
         public Cart GetCart(string key)
         {
             Cart cartToCheck = _contextAccessor.HttpContext.Session.GetObject<Cart>(key);
-            if(cartToCheck == null)
+            if (cartToCheck == null)
             {
                 SetCart(key, new Cart());
                 cartToCheck = _contextAccessor.HttpContext.Session.GetObject<Cart>(key);

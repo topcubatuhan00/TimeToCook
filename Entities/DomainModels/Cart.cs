@@ -1,9 +1,4 @@
 ﻿using Core.Entities.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Entities.DomainModels
 {
@@ -16,6 +11,6 @@ namespace Entities.DomainModels
 
         public List<CartLine> CartLines { get; set; }
 
-       
+
     }
 }

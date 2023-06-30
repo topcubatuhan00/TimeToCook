@@ -1,6 +1,4 @@
-﻿using Business.Abstract;
-using Microsoft.AspNetCore.Mvc;
-using MvcWebUI.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace MvcWebUI.Controllers
 {
@@ -8,12 +6,12 @@ namespace MvcWebUI.Controllers
     {
 
 
-        private ICategoryService _categoryService;
+        //private ICategoryService _categoryService;
 
-        public CategoryController(ICategoryService categoryService)
-        {
-            _categoryService = categoryService;
-        }
+        //public CategoryController(ICategoryService categoryService)
+        //{
+        //    _categoryService = categoryService;
+        //}
 
     }
 }

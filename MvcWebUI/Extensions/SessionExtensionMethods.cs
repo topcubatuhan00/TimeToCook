@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.Runtime.CompilerServices;
 
 namespace MvcWebUI.Extensions
 {
@@ -14,7 +13,7 @@ namespace MvcWebUI.Extensions
         public static T GetObject<T>(this ISession session, string key) where T : class
         {
             string objectString = session.GetString(key);
-            if(string.IsNullOrEmpty(objectString))
+            if (string.IsNullOrEmpty(objectString))
             {
                 return null;
             }

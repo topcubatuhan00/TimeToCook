@@ -1,16 +1,11 @@
 ﻿using Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Business.Abstract
+namespace Business.Abstract;
+
+public interface IProductService
 {
-    public interface IProductService
-    {
-        List<Product> GetAll();
-        List<Product> GetByCategory(int categoryId);
-        Product getById(int productId);
-    }
+    List<Product> GetAll();
+    Product getById(int productId);
+    void Remove(int id);
+    void AddProduct(Product product);
 }

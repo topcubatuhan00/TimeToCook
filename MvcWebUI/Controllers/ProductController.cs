@@ -10,18 +10,18 @@ namespace MvcWebUI.Controllers
 
         public ProductController(IProductService productService)
         {
-            _productService= productService;
+            _productService = productService;
         }
 
 
-        
-        public IActionResult Index(int category)
-        {
-            var model = new ProductListViewModel
-            {
-                Products = category > 0 ? _productService.GetByCategory(category) : _productService.GetAll()
-            };
-            return View(model);
-        }
+
+        //public IActionResult Index(int category)
+        //{
+        //    var model = new ProductListViewModel
+        //    {
+        //        Products = category > 0 ? _productService.GetByCategory(category) : _productService.GetAll()
+        //    };
+        //    return View(model);
+        //}
     }
 }

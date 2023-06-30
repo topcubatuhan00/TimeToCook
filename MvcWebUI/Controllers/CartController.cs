@@ -1,59 +1,60 @@
-﻿using Business.Abstract;
-using Entities.Concrete;
-using Microsoft.AspNetCore.Mvc;
-using MvcWebUI.Helpers;
-using MvcWebUI.Models;
+﻿//using Business.Abstract;
+//using Entities.Concrete;
+//using Microsoft.AspNetCore.Mvc;
+//using MvcWebUI.Helpers;
+//using MvcWebUI.Models;
 
-namespace MvcWebUI.Controllers
-{
-    public class CartController : Controller
-    {
+//namespace MvcWebUI.Controllers
+//{
+//    public class CartController : Controller
+//    {
 
-        private ICartService _cartService;
-        private ICartSessionHelper _cartSessionHelper;
-        private IProductService _productService;
+//        private ICartService _cartService;
+//        private ICartSessionHelper _cartSessionHelper;
+//        private IProductService _productService;
 
-        public CartController(ICartService cartService, ICartSessionHelper cartSessionHelper, IProductService productService)
-        {
-            _cartService = cartService;
-            _cartSessionHelper = cartSessionHelper;
-            _productService = productService;
-        }
+//        public CartController(ICartService cartService, ICartSessionHelper cartSessionHelper, IProductService productService)
+//        {
+//            _cartService = cartService;
+//            _cartSessionHelper = cartSessionHelper;
+//            _productService = productService;
+//        }
 
-        public IActionResult AddToCart(int productId)
-        {
-            Product product = _productService.getById(productId);
+//        public IActionResult AddToCart(int productId)
+//        {
+//            Product product = _productService.getById(productId);
 
-            var cart = _cartSessionHelper.GetCart("cart");
-            _cartService.AddToCart(cart,product);
+//            var cart = _cartSessionHelper.GetCart("cart");
+//            _cartService.AddToCart(cart, product);
 
-            _cartSessionHelper.SetCart("cart",cart);
+//            _cartSessionHelper.SetCart("cart", cart);
 
 
-            return RedirectToAction("Index","Product");
-        }
+//            return RedirectToAction("Index", "Product");
+//        }
 
-        public IActionResult Index() {
+//        public IActionResult Index()
+//        {
 
-            var model = new CartListViewModel
-            {
-                Cart = _cartSessionHelper.GetCart("cart")
-            };
+//            var model = new CartListViewModel
+//            {
+//                Cart = _cartSessionHelper.GetCart("cart")
+//            };
 
-            return View(model);
+//            return View(model);
 
-        }
+//        }
 
-        public IActionResult RemoveFromCart(int productId)
-        {
-            Product product = _productService.getById(productId);
-            var cart = _cartSessionHelper.GetCart("cart");
+//        public IActionResult RemoveFromCart(int productId)
+//        {
+//            Product product = _productService.getById(productId);
+//            var cart = _cartSessionHelper.GetCart("cart");
 
-            _cartService.RemoveFromCart(cart, productId);
-            _cartSessionHelper.SetCart("cart",cart);
+//            _cartService.RemoveFromCart(cart, productId);
+//            _cartSessionHelper.SetCart("cart", cart);
 
-            return RedirectToAction("Index", "Cart");
+//            return RedirectToAction("Index", "Cart");
 
-        }
-    }
-}
+//        }
+//    }
+//}

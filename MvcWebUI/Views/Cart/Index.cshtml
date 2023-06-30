@@ -10,10 +10,7 @@
             <tr>
                 <th>Id</th>
                 <th>Ürün Adı</th>
-                <th>Açıklama</th>
-                <th>Fiyat</th>
                 <th>Stok Adeti</th>
-                <th>Satış Adeti</th>
             </tr>
         </thead>
     @foreach (var cartLine in Model.Cart.CartLines)
@@ -21,13 +18,10 @@
         
         <tbody>
             <tr>
-                <td>@cartLine.Product.ProductId</td>
-                <td>@cartLine.Product.ProductName</td>
-                <td>@cartLine.Product.QuantityPerUnit</td>
-                <td>@cartLine.Product.UnitPrice</td>
-                <td>@cartLine.Product.UnitsInStock</td>
+                <td>@cartLine.Product.Id</td>
+                <td>@cartLine.Product.Name</td>
                 <td>@cartLine.quantity</td>
-                <td><a class="btn btn-sm btn-danger" asp-action="RemoveFromCart" asp-controller="Cart" asp-route-productId="@cartLine.Product.ProductId">Sepetten Sil</a></td>
+                <td><a class="btn btn-sm btn-danger" asp-action="RemoveFromCart" asp-controller="Cart" asp-route-productId="@cartLine.Product.Id">Sepetten Sil</a></td>
             </tr>
         </tbody>
     }
