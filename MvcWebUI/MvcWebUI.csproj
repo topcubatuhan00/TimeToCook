@@ -7,15 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Business\Business.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Category\" />
+    <Compile Remove="Views\Category\**" />
+    <Content Remove="Views\Category\**" />
+    <EmbeddedResource Remove="Views\Category\**" />
+    <None Remove="Views\Category\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
   </ItemGroup>
 
 </Project>

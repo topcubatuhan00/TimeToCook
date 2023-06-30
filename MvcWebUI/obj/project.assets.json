@@ -1060,20 +1060,6 @@
           }
         }
       },
-      "Business/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Business.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Business.dll": {}
-        }
-      },
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1085,20 +1071,6 @@
         },
         "runtime": {
           "bin/placeholder/Core.dll": {}
-        }
-      },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Core": "1.0.0",
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
         }
       },
       "Entities/1.0.0": {
@@ -3313,20 +3285,10 @@
         "version.txt"
       ]
     },
-    "Business/1.0.0": {
-      "type": "project",
-      "path": "../Business/Business.csproj",
-      "msbuildProject": "../Business/Business.csproj"
-    },
     "Core/1.0.0": {
       "type": "project",
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
-    },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
     },
     "Entities/1.0.0": {
       "type": "project",
@@ -3336,7 +3298,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Business >= 1.0.0",
+      "Entities >= 1.0.0",
       "Newtonsoft.Json >= 13.0.2"
     ]
   },
@@ -3367,8 +3329,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\External Projects\\TimeToCook\\Business\\Business.csproj": {
-              "projectPath": "D:\\External Projects\\TimeToCook\\Business\\Business.csproj"
+            "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj"
             }
           }
         }

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\External Projects\\TimeToCook\\MvcWebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MvcWebUI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MvcWebUI.bundle.scp.css"
-    },
-    {
       "Id": "D:\\External Projects\\TimeToCook\\MvcWebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

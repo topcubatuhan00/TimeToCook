@@ -1,9 +1,8 @@
 ﻿using Entities.Concrete;
 
-namespace MvcWebUI.Models
+namespace MvcWebUI.Models;
+
+public class ProductListViewModel
 {
-    public class ProductListViewModel
-    {
-        public List<Product> Products { get; set; }
-    }
+    public List<Product> Products { get; set; }
 }

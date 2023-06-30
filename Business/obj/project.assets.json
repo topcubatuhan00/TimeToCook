@@ -1060,20 +1060,6 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Core": "1.0.0",
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
-        }
-      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3261,11 +3247,6 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
-    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -3274,7 +3255,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DataAccess >= 1.0.0",
       "Entities >= 1.0.0"
     ]
   },
@@ -3305,9 +3285,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\External Projects\\TimeToCook\\DataAccess\\DataAccess.csproj"
-            },
             "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj": {
               "projectPath": "D:\\External Projects\\TimeToCook\\Entities\\Entities.csproj"
             }
