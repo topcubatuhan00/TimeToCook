@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entiti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcWebUI", "MvcWebUI\MvcWebUI.csproj", "{ECF481B1-ECD5-4FCF-91EE-E48B56D8839A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{FE59045E-86C1-4DDE-942C-0206068E8C00}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{ECF481B1-ECD5-4FCF-91EE-E48B56D8839A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF481B1-ECD5-4FCF-91EE-E48B56D8839A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF481B1-ECD5-4FCF-91EE-E48B56D8839A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE59045E-86C1-4DDE-942C-0206068E8C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE59045E-86C1-4DDE-942C-0206068E8C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE59045E-86C1-4DDE-942C-0206068E8C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE59045E-86C1-4DDE-942C-0206068E8C00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
