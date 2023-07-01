@@ -87,3 +87,44 @@
     urunMiktari.addEventListener('input', checkInputs);
     sonKullanmaTarihi.addEventListener('input', checkInputs);
 </script>
+<script>
+    // Tarayıcı bildirimine izin isteme
+    if ('Notification' in window) {
+        Notification.requestPermission().then(function (permission) {
+            if (permission === 'granted') {
+                // Kullanıcı izin verdiğinde abonelik oluşturma
+                if ('serviceWorker' in navigator) {
+                    navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+                        registration.pushManager.subscribe({
+                            userVisibleOnly: true,
+                            applicationServerKey: 'your_application_server_key'
+                        }).then(function (subscription) {
+                            // Abonelik başarılı bir şekilde oluşturuldu
+                            console.log('Abonelik başarılı:', subscription.endpoint);
+                        }).catch(function (error) {
+                            // Abonelik oluşturulamadı
+                            console.error('Abonelik oluşturulamadı:', error);
+                        });
+                    });
+                }
+            }
+        });
+    }
+
+    // Bildirim gönderme
+    function sendNotification(title, options) {
+        if ('Notification' in window && Notification.permission === 'granted') {
+            navigator.serviceWorker.ready.then(function (registration) {
+                registration.showNotification(title, options);
+            });
+        }
+    }
+
+    // Kullanım örneği
+    sendNotification('Başlık', {
+        body: 'Bildirim içeriği',
+        icon: 'path_to_icon',
+        // diğer seçenekler
+    });
+
+</script>
