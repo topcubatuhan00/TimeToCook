@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NM87sNXWp9XTour+BtJvyX/eB2Ia5hwXlXIv3KrSWoE=",
+  "Hash": "KDLWRsfd0PacABasbGlrOQLHiKjLGXB6Be9WH9dSO6Y=",
   "Source": "MvcWebUI",
   "BasePath": "_content/MvcWebUI",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\External Projects\\TimeToCook\\MvcWebUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MvcWebUI.styles.css",
+      "SourceId": "MvcWebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\External Projects\\TimeToCook\\MvcWebUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/MvcWebUI",
+      "RelativePath": "MvcWebUI.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\External Projects\\TimeToCook\\MvcWebUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MvcWebUI.styles.css"
+    },
+    {
+      "Identity": "D:\\External Projects\\TimeToCook\\MvcWebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MvcWebUI.bundle.scp.css",
+      "SourceId": "MvcWebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\External Projects\\TimeToCook\\MvcWebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/MvcWebUI",
+      "RelativePath": "MvcWebUI.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\External Projects\\TimeToCook\\MvcWebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MvcWebUI.bundle.scp.css"
+    },
     {
       "Identity": "D:\\External Projects\\TimeToCook\\MvcWebUI\\wwwroot\\css\\site.css",
       "SourceId": "MvcWebUI",
