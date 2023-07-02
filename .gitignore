@@ -362,10 +362,3 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /QuickSalesApp.WebApi/appsettings.json
-/Business/obj/
-/WebAPI/obj/
-/Core/bin/
-/Business/bin/
-/Core/bin/
-/Core/obj/
-/DataAccess/bin/
