@@ -38,13 +38,13 @@
     </div>
     <div class="card-body" id="add" style="display: none;">
         <form id="productForm" method="post" asp-action="Save">
-            <p class="card-text">
-                <input id="urunAdi" name="Name" class="m-2 form-control form-control-lg" type="text" placeholder="Ürün Adı">
-                <input id="urunResim" name="Photo" class="m-2 form-control form-control-lg" type="text" placeholder="Ürün Resim Linki">
-                <input id="urunMiktari" name="Amount" class="m-2 form-control form-control-lg" type="number" placeholder="Ürün Miktarı">
-                <input id="sonKullanmaTarihi" name="SKTDate" class="m-2 form-control form-control-lg" type="date" placeholder="Ürün Son Kullanma Tarihi">
+            <div class="card-text">
+                <p class="text-danger fw-bold w-100 m-2" style="text-align:left;font-size:12px;">Ürün Adı*</p><input id="urunAdi" name="Name" class="m-2 form-control form-control-lg" type="text" placeholder="Ürün Adı">
+                <p class="text-danger fw-bold w-100 m-2" style="text-align:left;font-size:12px;">Ürün Resim Linki*</p><input id="urunResim" name="Photo" class="m-2 form-control form-control-lg" type="text" placeholder="Ürün Resim Linki">
+                <p class="text-danger fw-bold w-100 m-2" style="text-align:left;font-size:12px;">Ürün Miktarı*</p><input id="urunMiktari" name="Amount" class="m-2 form-control form-control-lg" type="number" placeholder="Ürün Miktarı">
+                <p class="text-danger fw-bold w-100 m-2" style="text-align:left;font-size:12px;">Son Kullanma Tarihi*</p><input id="sonKullanmaTarihi" name="SKTDate" class="m-2 form-control form-control-lg" type="date" placeholder="Ürün Son Kullanma Tarihi">
                 <input id="kaydetBtn" class="m-2 form-control form-control-lg btn btn-outline-primary" type="submit" value="Kaydet" disabled>
-            </p>
+            </div>
         </form>
     </div>
 </div>
