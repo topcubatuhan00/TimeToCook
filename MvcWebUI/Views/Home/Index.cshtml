@@ -86,6 +86,18 @@
     urunResim.addEventListener('input', checkInputs);
     urunMiktari.addEventListener('input', checkInputs);
     sonKullanmaTarihi.addEventListener('input', checkInputs);
+
+    var sonKullanmaTarihiInput = document.getElementById("sonKullanmaTarihi");
+
+    sonKullanmaTarihiInput.addEventListener("change", function () {
+        var selectedDate = new Date(this.value);
+        var today = new Date();
+
+        if (selectedDate < today) {
+            alert("Lütfen bugünden sonraki bir tarih seçin.");
+            this.value = ""; // Tarihi sıfırlayarak seçimi iptal edebilirsiniz.
+        }
+    });
 </script>
 <script>
     // Tarayıcı bildirimine izin isteme
