@@ -13,10 +13,27 @@
         <p class="card-text">
             @foreach (var product in Model.Products)
             {
+                if ((DateTime.Parse(product.SKTDate) - DateTime.Now).TotalDays < 1)
+                {
+                    Console.WriteLine("burada");
+                    <script>
+                        sendNotification('Ürün SKT Yaklaşıyor', {
+                            body: '@Html.Raw(product.Name)' + ' adlı ürünün son kullanma tarihi yaklaşıyor.',
+                            icon: '@Html.Raw(product.Photo)'
+                        });
+
+                        function sendNotification(title, options) {
+                            if ('Notification' in window && Notification.permission === 'granted') {
+                                var notification = new Notification(title, options);
+                            }
+                        }
+                    </script>
+                }
+
                 <div class="pb-4" style="border-bottom: 1px dashed #164B60;border-top: 1px dashed #164B60;flex-wrap: wrap">
                     <div class="container d-flex justify-content-between align-items-center p-3 fs-5">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div><img style="width:75px;height:75px;object-fit:cover" src="@product.Photo" class="rounded float-left" alt="..."></div>
+                            <div><img style="width:75px;height:75px;object-fit:cover" src=@product.Photo ? product.Photo class="rounded float-left" alt="..."></div>
                             <div class="mx-3">@product.Name</div>
                         </div>
                         <div>
@@ -100,43 +117,9 @@
     });
 </script>
 <script>
-    // Tarayıcı bildirimine izin isteme
-    if ('Notification' in window) {
-        Notification.requestPermission().then(function (permission) {
-            if (permission === 'granted') {
-                // Kullanıcı izin verdiğinde abonelik oluşturma
-                if ('serviceWorker' in navigator) {
-                    navigator.serviceWorker.register('service-worker.js').then(function (registration) {
-                        registration.pushManager.subscribe({
-                            userVisibleOnly: true,
-                            applicationServerKey: 'your_application_server_key'
-                        }).then(function (subscription) {
-                            // Abonelik başarılı bir şekilde oluşturuldu
-                            console.log('Abonelik başarılı:', subscription.endpoint);
-                        }).catch(function (error) {
-                            // Abonelik oluşturulamadı
-                            console.error('Abonelik oluşturulamadı:', error);
-                        });
-                    });
-                }
-            }
-        });
-    }
-
-    // Bildirim gönderme
     function sendNotification(title, options) {
         if ('Notification' in window && Notification.permission === 'granted') {
-            navigator.serviceWorker.ready.then(function (registration) {
-                registration.showNotification(title, options);
-            });
+            var notification = new Notification(title, options);
         }
     }
-
-    // Kullanım örneği
-    sendNotification('Başlık', {
-        body: 'Bildirim içeriği',
-        icon: 'path_to_icon',
-        // diğer seçenekler
-    });
-
 </script>
